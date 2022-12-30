@@ -1,0 +1,54 @@
+.slidesection{
+    max-width: 1440px;
+
+    display: grid;
+    grid-template-columns: 211px 739px 490px;
+    grid-template-rows: 211px;
+}
+.slidesection>.imageOne{
+
+}
+
+.slidesection>.before{
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+    background-image: url('../assets/top/Rectangle25.png');
+    background-size: contain;
+    background-repeat: repeat-x;
+    z-index: 2;
+
+}
+.slidesection>.before::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #2e3a5d;
+    opacity: 0.9;
+    z-index: 1;
+}
+
+.slidesection>.before>a{
+    text-decoration: none;
+    font-size: 30px;
+    color: #Ffff;
+    z-index: 2;
+}
+.slidesection>a{
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    background-color: black;
+    opacity: 0.9;
+    color: #Ffff;
+}

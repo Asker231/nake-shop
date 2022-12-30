@@ -1,0 +1,50 @@
+.search{
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.search>.content{
+     display: flex;
+     justify-content: space-between;
+    width: 1156px;
+    height: 345px;
+    left: 153px;
+    top: 3381px;
+    background: #A3B7F5;
+    box-shadow: 4px 7px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 33px;
+}
+.search>.content>.left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 40px;
+}
+.search>.content>.left>h1{
+    font-size: 30px;
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 105.5%;
+}
+.search>.content>.left>input{
+    width: 602px;
+    height: 40px;
+    left: 213px;
+    top: 3547px;
+   overflow: none;
+    background: #FFFFFF;
+    border: none;
+    border-radius: 9px;
+}
+.search>.content>.right{
+    background-image: url('../assets/cardSlide/FirstCard.png');
+    width: 344px;
+    height: 394px;
+    background-repeat: no-repeat;
+    background-position: center;
+}

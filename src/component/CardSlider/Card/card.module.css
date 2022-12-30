@@ -1,0 +1,28 @@
+.card{
+    width: 268px;
+    height: 448px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    position: relative;
+    transition: .4s;
+    justify-content: space-between;
+    border-radius: 30px;
+    top: 0;
+    padding-bottom: 5px;
+}
+.card:hover{
+    
+    top: -9px;
+    -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+   box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+}
+.card>h4{
+font-size: 22px;
+}
+.card>p{
+
+}

@@ -1,0 +1,23 @@
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+}
+.list>h3{
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+}
+.list>span{
+    color: #fff;
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 31px;
+}

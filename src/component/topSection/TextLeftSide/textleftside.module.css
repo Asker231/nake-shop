@@ -1,0 +1,36 @@
+.textleftside{
+    display: flex;
+    flex-direction: column;
+    gap:31px;
+    max-width: 42%;
+    align-items: flex-start;
+
+    position: relative;
+    left: 200px;
+    z-index: 100;
+}
+.textleftside>.title{
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 59px;
+    line-height: 115%;
+}
+.textleftside>.years{
+    padding: 10px  30px;
+    border: 1px solid #CA1B00;
+    border-style: dotted;
+    border-radius: 2px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #CA1B00;
+
+}
+.textleftside>.description{
+    width: 427px;
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 115%;
+}

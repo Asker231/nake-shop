@@ -1,0 +1,44 @@
+.incore{
+   display: grid;
+   grid-template-columns: 424px 513px;
+   align-items: flex-end;
+   max-width: 1440px;
+   justify-content: space-around;
+   padding: 80px;
+}
+.incore>.leftSide{
+    background-image: url('../assets/middle/Rectangle6.png');
+    width: 100%;
+    height: 525px;
+    background-repeat: no-repeat;
+}
+.incore>.rightSide{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    position: relative;
+    top: 30px;
+    left: -30px;
+    justify-content: space-around;
+    height: 400px;
+}
+.incore>.rightSide>p{
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+.incore>.rightSide>h1{
+    position: absolute;
+    font-size: 60px;
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 105.5%;
+    top: -170px;
+    left: -200px;
+}
+

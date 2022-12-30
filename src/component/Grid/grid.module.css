@@ -1,0 +1,41 @@
+.grid{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    padding: 10px;
+}
+.grid>.top{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;    
+}
+.grid>.top>h2{
+    font-size: 55px;
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 105.5%;
+}
+.grid>.top>p{
+    font-size: 20px;
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 105.5%;
+}
+
+.grid>.gridLayout{
+    display: grid;
+    grid-template-columns: 623px 510px;
+    gap: 10px;
+    justify-content: center;
+     padding: 30px;
+    
+}
+.gridLayout>.leftSide{
+    background-image:url('../assets/gridSectio/Rectangle1.png');
+    width: 100%;
+}

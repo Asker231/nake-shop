@@ -1,0 +1,18 @@
+.footer{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    max-width: 1440px;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+}
+.footer>.logo{
+    color: #ffff;
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    font-size: 25px;
+}
